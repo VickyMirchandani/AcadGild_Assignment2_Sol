@@ -1,8 +1,2 @@
-var fatArrowfunctn = (CourseName) => 
-                    {
-                        
-                        return console.log("THE COURSE NAME IS =" + CourseName);
-}
-
-
-fatArrowfunctn("AcadGild");
+let AngularCourse = (CourseName: string,NoofYears:Number) => { alert(`Course name is ${CourseName},${NoofYears}`) }
+AngularCourse("ACADGILD",4);
